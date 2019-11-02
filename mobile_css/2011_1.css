@@ -1,0 +1,121 @@
+/*!
+ * DMI 25082011
+ * Copyright 2011, dmi
+ */
+ 
+*{font-size:100.01%; margin:0; padding:0;}
+html {font-size:110%; font-family:'Trebuchet MS', Arial, Helvetica, sans-serif; margin:0; padding:0;}
+body { margin:0; padding:0;}
+
+h1, h2 {margin:0 0 8px 0;}
+h2 {color:#c0ffff;}
+
+#govde {margin:0; padding:0;}
+#govdeUst {background: #222 url(overlay.png) repeat-x; margin:0 0 8px 0; padding:3px 0 5px 5px; height:60px;}
+#govdeUstLogo {float:left; margin:0 7px 0 0; padding:0;}
+#govdeUstText {float:left; margin:0; padding:0;}
+#govdeUstText h1 {margin:7px 0 0 0; padding:0;}
+#govdeUstText h2 {padding:0 0 0 20px; margin:5px 0 0 0; font-size:.9em; background:url('listPoint1anim.gif') no-repeat;
+}
+#govdeUstText h2 a:active, #govdeUstText h2 a:visited, #govdeUstText h2 a:link {color:#cc0000;}
+#govdeUstText h2 a:hover {text-decoration:underline;}
+#govdeSayfa {background-color:#373735; margin:0; padding:0 0 0 7px;}
+#govdeAlt {background: #ddd url(overlay.png) repeat-x; margin:8px 0 0 0; padding:11px 0 11px 7px;}
+
+a {color: #4893e8; text-decoration: none;}
+a:hover, a.visited {color: #dddcdd;}
+
+p {margin:5px 0 11px 0;}
+
+/* ____________________________________________________________________________________________ */
+	
+ul {margin:0; padding:0;}
+li {list-style:none; padding:4px 0 4px 0;}
+ul li ul li {display:inline-block; margin:0 1px;}
+
+.butonn, .butonn:visited, .butonn:hover, .butonn:active {
+	background: #222 url(overlay.png) repeat-x; 
+	display: inline-block; 
+	padding: 5px 10px 6px; margin:0 0 3px 0;
+	color: #fff; 
+	text-decoration: none;
+	border-radius: 6px; 
+	-moz-border-radius: 6px; 
+	-webkit-border-radius: 6px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	position: relative;
+    }
+ 
+	.bBbuyuk.butonn, .bBbuyuk.butonn:visited {font-size:1.4em;}
+	.bBorta.butonn, .bBorta.butonn:visited {font-size:1.1em;}
+	.bBkucuk.butonn, .bBkucuk.butonn:visited {font-size:.9em; font-weight:bold;}
+	
+	.bRenk0.butonn, .bRenk0.butonn:visited {background-color: #e62727;}
+	.bRenk0.butonn:hover {background-color: #e62727;}
+ 
+	.bRenk1.butonn, .bRenk1.butonn:visited {background-color: #383836;}
+	.bRenk1.butonn:hover {background-color: #252523;}
+
+	.bRenk2.butonn, .bRenk2.butonn:visited {background-color: #2981e4;}
+	.bRenk2.butonn:hover {background-color: #2575cf;}
+
+	.bRenk3.butonn, .bRenk3.butonn:visited {background-color: #609f0d;}
+	.bRenk3.butonn:hover {background-color: #97d248;}
+
+/* ____________________________________________________________________________________________ */
+.wY98, .wY98:hover, .wY98:visited, .wY98:active {width:98% !important;} 
+
+.mw640 {max-width:640px !important;} 
+.mw790 {max-width:790px !important;} 
+
+.renk0 {color:#c1c1c1;} 
+.renk1 {color:#00afef;} 
+.renk2 {color:#cc0000;}
+.renk3 {color:#fff;}
+.kucuk08 {font-size:.8em !important;}
+.kucult07 {font-size:.7em;}
+
+/* ____________________________________________________________________________________________ */
+div#qTip {padding:3px; border: 2px solid #555; border-width: 1px 2px 2px 6px; display: none; background:#fff; color: #555; text-align: left; position: absolute; z-index: 1000; font-size:.7em;}
+
+.divUyarii ul {list-style:none; margin:0; font-size:.8em;}
+.divUyarii ul li {padding:0 0 5px 16px; background:transparent url('listPoint1anim.gif') no-repeat; color:#c0c0c0; font-weight:bold;}
+.divUyarii ul li a {color:#ff8080; text-decoration:none; line-height:1.3em; font-weight:normal;}
+.divUyarii ul li a:hover {color:#ff8080; text-decoration:underline;}
+.divUyarii .uyariYok {font-weight:normal; background:none;}
+/* ____________________________________________________________________________________________  */
+.kn_aciklama {
+    color:#555;
+    border:solid 1px #e5e5e5;
+    padding:5px 10px 6px 50px;
+    margin-bottom:4px;
+    background-color:#f2f2f2;
+    font-size:.6em !important;
+}
+
+/* ____________________________________________________________________________________________ tablo */
+table.t1 {width:100%; border-collapse:separate; margin:1em 0; border-spacing:.16em;}
+.t1 thead th, .t1 thead td, .t1 tbody th, .t1 tbody td {padding:.5em .7em; vertical-align:middle; text-align:left; font-size:.7em; border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px;}
+.t1 thead th { border-bottom:solid 1px #b5b5b5; color:#808080;}
+.t1 thead td {border-bottom:solid 1px #b5b5b5; border-right:solid 1px #b5b5b5;}
+.t1 tbody th {border-bottom:solid 1px #524040; background: #222 url(overlay.png) repeat-x; font-weight:normal; color:#d1cbcb;}
+.t1 tbody td {border-bottom:solid 1px #665656; border-right:solid 1px #665656; background: #444 url(overlay.png) repeat-x;}
+.t1 tfoot td {color:#444; border-bottom:solid 1px #e5f1f4; font-size:.6em; font-style:italic;}
+.t1 tbody td img {
+    margin:0 !important;
+    padding:0 !important;
+}
+
+table.tTh {width:99%; border-collapse:separate; margin:0; border-spacing:.1em; font-size:.8em; margin:0;}
+.tTh thead th {background: #222 url(overlay.png) repeat-x; color:#fff; border:solid 1px #6b6b6b; padding:.5em .1em; text-align:center; vertical-align:middle; font-weight:normal; font-size:.8em; border-radius: 6px;  -moz-border-radius: 6px; -webkit-border-radius: 6px;}
+.tTh tbody th {background-color:#f7f7f7; color:#000; padding:.1em; color:#555; text-align:left; vertical-align:middle; font-weight:normal; border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px;}
+.tTh tbody td {background-color:#f7f7f7; color:#000; padding:.1em; text-align:center; vertical-align:middle; border-radius: 6px;  -moz-border-radius: 6px; -webkit-border-radius: 6px;}
+.tTh tbody td img {margin:0 !important; padding:0 !important;}
+.tTh tbody .maxS { color:#d32d30;}
+.tTh tbody .minS {color:#4247b8;}
+.tTh tbody .maxN {color:#731d75;}
+.tTh tbody .minN {color:#1ab61a;}
+.tTh .aAlt { background-color:#f8f7c8;}
